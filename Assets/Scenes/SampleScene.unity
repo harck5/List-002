@@ -316,6 +316,13 @@ GameObject:
   - component: {fileID: 1220325080}
   - component: {fileID: 1220325086}
   - component: {fileID: 1220325085}
+  - component: {fileID: 1220325087}
+  - component: {fileID: 1220325088}
+  - component: {fileID: 1220325089}
+  - component: {fileID: 1220325090}
+  - component: {fileID: 1220325091}
+  - component: {fileID: 1220325092}
+  - component: {fileID: 1220325093}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -439,4 +446,99 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed2abf44a00276478ff2960f16d8e0d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  year: 1789
+  year: 1999
+--- !u!114 &1220325087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1220325079}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9571b0c709e775141ae393d7f2f06c74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Base: -10
+  Height: 5
+--- !u!114 &1220325088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1220325079}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 162a1ec5be5a8ad4096bee023d4456c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  age: 17
+--- !u!114 &1220325089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1220325079}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b8a01c91d2f85d4bb2fc4f403a3aa48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Total: 10
+  Travel: 3
+--- !u!114 &1220325090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1220325079}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 487c8664664cdd048b2db835c1f7c154, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  operation: subtraction
+  x: 10
+  y: 2
+--- !u!114 &1220325091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1220325079}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 113c4dba6a0070e4ba12581c379e9b2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Points: 60
+--- !u!114 &1220325092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1220325079}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c49b04db7448b404588c193d90d3e616, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  VegetarianOption: 1
+--- !u!114 &1220325093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1220325079}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cccf85760aaaa64e95911a061d89c42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  year: 2100

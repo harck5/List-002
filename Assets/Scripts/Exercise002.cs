@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Exercise002 : MonoBehaviour
 {
+    //Segun el resultado que queda del modulo por 12 es un animal distinto
+    //ejemplo la division = (1999 / 12 = 166)(resultado) y el modulo (1999 % 12 = 8)(resto)<<interesa
     public int year;
     void Start()
     {

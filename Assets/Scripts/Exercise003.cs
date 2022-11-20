@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Exercise003 : MonoBehaviour
 {
+    //Un modulo para saber si es divisible por 5
     public int x;
     void Start()
     {

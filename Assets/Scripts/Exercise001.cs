@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Exercise001 : MonoBehaviour
 {
+    //comprobar si un numero esta 0 o positivo, o si esta negativo
     public float x;
     void Start()
     {
